@@ -1,15 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-
+Sollyverse
 > Description the project.
-
+This is a website that lets you book your vacations and holidays.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, and JavaScript
+- Node and NPM
+- Express, NeDB, Nodemon
 
 ## Live Demo (if available)
 
