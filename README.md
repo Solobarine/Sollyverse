@@ -31,6 +31,10 @@ To get a local copy up and running follow these simple example steps.
 ### Install
 
 ### Usage
+- Clone this repo on your machine and cd into the repo
+- run npm install to download the necessary dependencies. Make sure you havr node and npm installed on your machine.
+- run npm start to start the server.
+- On your browser, go to localhost:3000 and Enjoy.
 
 ### Run tests
 
