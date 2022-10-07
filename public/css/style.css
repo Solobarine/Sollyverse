@@ -1,0 +1,308 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 1200px;
+  background: linear-gradient( #79d58d, #fff);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  color: grey;
+}
+
+.logo {
+  width: 20%;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  padding-top: 5px;
+  justify-content: space-around;
+  margin-right: 10%;
+}
+
+.head-buttons {
+  display: flex;
+  width: 15%;
+}
+
+.login {
+  background: transparent;
+  width: 50%;
+  height: 50%;
+  margin-top: 10%;
+  border: none;
+  color: grey;
+}
+
+.register {
+  background: #20b970;
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+  margin-top: 10%;
+  border: none;
+  color: #fff;
+}
+
+.welcome {
+  font-size: 50px;
+  font-style: bold;
+  line-height: 55px;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+}
+
+#wel-text {
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: -20px;
+}
+
+.welcome-buttons {
+  width: 42%;
+  margin-left: 29%;
+  text-align: center;
+}
+
+.wel-button {
+  width: 40%;
+  border: none;
+  border-radius: 10px;
+}
+
+#download {
+  background: white;
+  color: #20b970;
+  padding: 10px;
+
+}
+
+#started {
+  background: #20b970;
+  color: #fff;
+  padding: 10px;
+}
+
+.home {
+  display: flex;
+  width: 85%;
+  margin-left: 10%;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+.menu {
+  width: 15%;
+  padding-top: 25px;
+}
+
+.company {
+  text-align: center;
+}
+
+.menu-options {
+  width: 70%;
+  list-style: none;
+  margin-left: -20px;
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+.m-option {
+  margin-bottom: 15px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background: grey;
+  margin: 20px;
+  border-radius: 20px;
+  padding-left: 15px;
+}
+
+.invite {
+  margin-top: -10px;
+}
+
+.search {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.search-bar {
+  width: 65%;
+}
+
+.s-button {
+  width: 20%;
+  border-radius: 10px;
+}
+
+.searches {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -30px;
+}
+
+#s-place {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -40px;
+  width: 55%;
+}
+
+.destinations {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px 0 20px;
+}
+
+.destination {
+  width: 30%;
+  height: 240px;
+  background: red;
+  border-radius: 20px;
+}
+
+#events {
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-all {
+  margin-right: 34px;
+}
+
+.d-dest {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 30px 0 20px;
+  justify-content: space-between;
+}
+
+.dest {
+  width: 47%;
+  height: 50px;
+  background: palegoldenrod;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.profile {
+  width: 25%;
+  background-color: magenta;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.picture {
+  height: 80px;
+  width: 40%;
+  background:blue;
+  border-radius: 50px;
+}
+
+#fame {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fame-header {
+  font-size: 30px;
+  margin: 0;
+}
+
+.pitch {
+ width: 60%;
+ text-align: center;
+}
+
+.milestones {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.milestone {
+  text-align: center;
+}
+
+.number {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.text {
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foot-1 {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.culture {
+  width: 30%;
+}
+
+.foot-head {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.foot-text {
+  margin-top: 10px;
+}
+.f-nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-item {
+  list-style: none;
+  font-style: bold;
+  font-size: 20px;
+}
+
+.c-item,
+.s-item,
+.l-item {
+  font-size: 17px;
+  font-style: normal;
+}
+
+hr {
+  width: 80%;
+  border: 1px solid grey;
+}
+

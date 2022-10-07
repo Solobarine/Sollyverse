@@ -1,0 +1,142 @@
+body {
+  width: 1200px;
+}
+
+.container {
+  text-align: center;
+  background: grey;
+  margin-top: -20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  color: grey;
+  background: #79d58d;
+  height: 50px;
+}
+
+.logo {
+  width: 20%;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  padding-top: 5px;
+  justify-content: space-around;
+  margin-right: 10%;
+}
+
+.head-buttons {
+  display: flex;
+  width: 15%;
+}
+
+.login {
+  background: transparent;
+  width: 50%;
+  height: 50%;
+  margin-top: 10%;
+  border: none;
+  color: grey;
+  cursor: pointer;
+}
+
+.register {
+  background: #20b970;
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+  margin-top: 10%;
+  border: none;
+  color: #fff;
+}
+
+#landing {
+  background: url('../assets/landing.jpg');
+  background-size: cover;
+  margin-top: -43px;
+  min-height: 120vh;
+}
+
+.first-intro {
+  font-size: 35px;
+  width: 60%;
+  text-align: center;
+  padding-top: 30vh;
+  margin-left: 20%;
+  color: navy;
+}
+
+.intro {
+  padding-top: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 30%;
+}
+
+.nameInput,
+.passwordInput {
+  margin-bottom: 15px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+}
+
+#subBtn {
+  width: 50%;
+  color: #fff;
+  background-color: #20b970;
+  margin: 0 25%;
+  height: 40px;
+  border-radius: 12px;
+  border: 0;
+}
+
+.welcome {
+  padding: 0;
+}
+
+#signUp-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#signUp-form > label {
+  margin-bottom: 10px;
+
+}
+
+#signUp-form > input {
+  width: 30%;
+  margin-left: 35%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.subUser {
+  width: 22%;
+  height: 40px;
+  margin-left: 39%;
+  color: #fff;
+  background: #20b970;
+  border: none;
+  border-radius: 12px;
+}
+
+.foot-2 {
+  background: linear-gradient(#20b970, 70%, #fff);
+}
+
