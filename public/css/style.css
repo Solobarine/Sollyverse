@@ -178,6 +178,36 @@ body {
   border-radius: 20px;
 }
 
+.d-heading {
+  width: 84%;
+  margin-left: 8%;
+  margin-top: 165px;
+  background: green;
+  border-radius: 10px;
+}
+
+.vac-name {
+  margin: 0;
+}
+
+.loc-section {
+  margin: 0 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location {
+  margin: 0;
+}
+
+.like {
+  margin: 0;
+}
+
+.cost {
+  margin: 0;
+}
+
 #events {
   display: flex;
   justify-content: space-between;
@@ -196,10 +226,42 @@ body {
 
 .dest {
   width: 47%;
-  height: 50px;
+  height: 70px;
   background: palegoldenrod;
   margin-bottom: 15px;
   border-radius: 8px;
+}
+
+.dd-head {
+  margin: 8px;
+  background: blue;
+}
+
+.dd-1 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.dd-2 {
+  height: 16px;
+  margin: 2px;
+  display: flex;
+  margin-top: -6px;
+  justify-content: space-between;
+}
+
+.loc {
+  margin: 5px;
+}
+
+.lik {
+  margin: 5px;
+  width: 20%;
+  height: 20px;
+}
+
+.price {
+  margin: 5px;
 }
 
 .profile {

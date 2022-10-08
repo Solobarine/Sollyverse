@@ -45,9 +45,9 @@ const loginToAcount = async(a, b) => {
   const data = await fetch(url, options);
   const json = await data.json();
   if (json.query != 'User Not Found') {
-      window.open('/home'/*, '_top'*/);
+      window.open('/home', '_top');
     } else {
-      window.open('./error');
+      window.open('./error', '_top');
     }
 }
 
