@@ -13,6 +13,7 @@ const password = document.querySelector('#password');
 const rPassword = document.querySelector('#r-password');
 const createUser = document.querySelector('.subUser')
 
+
 login.addEventListener('click', () => {
   console.log('clicking');
   landing.classList.add('hidden')
@@ -41,16 +42,13 @@ const loginToAcount = async(a, b) => {
       "Content-Type": "application/json"
     }
   }
-  fetch(url, options).then(c => c.json()).then(g => {
-    console.log(g);
-    console.log(detail.Email);
-    if (g.query === detail.Email) {
-      window.open('/home', '_top');
+  const data = await fetch(url, options);
+  const json = await data.json();
+  if (json.query != 'User Not Found') {
+      window.open('/home'/*, '_top'*/);
     } else {
-      window.open('./error', '_top');
+      window.open('./error');
     }
-  })
-  //window.open("/home");
 }
 
 const sendUser = async (fname, lname, mail, password) => {
@@ -72,9 +70,7 @@ const sendUser = async (fname, lname, mail, password) => {
   console.log(options);
   console.log(options.method, options.body, options.headers);
   fetch(url, options).then(c => c.json()).then(g => console.log(g))
-  //console.log('Sent successfully');
 }
-
 // Login
 submit.addEventListener('click', async (e) => {
   e.preventDefault();
@@ -91,7 +87,6 @@ submit.addEventListener('click', async (e) => {
     let pass = key.value;
   loginToAcount(email, pass);
 })
-
 // Create User Button
 createUser.addEventListener('click', (e) => {
   e.preventDefault();
@@ -156,5 +151,3 @@ createUser.addEventListener('click', (e) => {
     sendUser(firstNameInput, lastNameInput, emailInput, passwordInput)
   }
 })
-
-
