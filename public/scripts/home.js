@@ -2,6 +2,7 @@ const userName = document.querySelector('.username');
 const fullName = document.querySelector('#name');
 const destinations = document.querySelectorAll('.destination');
 const dDests = document.querySelectorAll('.dest');
+const vacations = document.querySelectorAll('.vacation');
 console.log(fullName);
 
 const getUserName = async() => {
@@ -24,10 +25,22 @@ destinations.forEach(destination => destination.innerHTML = `<div class="d-headi
                                                              </div>`);
 
 dDests.forEach(item => item.innerHTML = `<div class="dd-head">
-                                           <h3 class="dd-1">Head</h3>
-                                           <div class="dd-2">
-                                             <p class="loc">Brazil</p>
-                                             <button class="lik">Like</button>
-                                           </div>
-                                           <p class="price">$1200/wk</p>
+                                          <div class="tou-image"></div>
+                                           <div class="cover">
+                                            <h3 class="dd-1">Head</h3>
+                                            <div class="dd-2">
+                                              <p class="loc">Brazil</p>
+                                              <button class="lik">Like</button>
+                                            </div>
+                                            <p class="price">$1200/wk</p>
+                                          </div>
+                                         </div>`);
+
+vacations.forEach(vac => vac.innerHTML = `<div class="vac-head">
+                                          <div class="vac-image"></div>
+                                           <div class="vac-cover">
+                                            <h3 class="vac-1">Head</h3>
+                                            <p class="vac-2">Brazil</p>
+                                            <p class="people">6 People like this</p>
+                                          </div>
                                          </div>`);
