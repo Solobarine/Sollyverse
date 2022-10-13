@@ -86,8 +86,12 @@ app.post('/register', (req, res) => {
 })
 
 app.get('/places', (req, res) => {
-  res.send(destinations.json)
-  //res.status(201).sendFile(path.resolve(__dirname, './destinations.json'))
+  fs.readFile('./destinations.json', (err, data) => {
+    if (err) {
+      throw err
+    }
+    res.status(201).send(data)
+  })
 })
 
 app.get('/destinations', (req, res) => {

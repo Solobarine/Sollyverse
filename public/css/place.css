@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#all-destinations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.vacation {
+  width: 22%;
+  height: 480px;
+  margin-bottom: 40px;
+  font-size: 26px;
+  border-radius: 35px;
+}
+
+.cover {
+  width: 82%;
+  margin-left: 7%;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 350px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+
+.vac-location {
+  font-weight: 600;
+  padding: 5px;
+}
+
+.sec-1 {
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.like {
+  padding: 10px;
+  font-size: 13px;
+  background-color: pink;
+  color: #fff;
+}
+
+.cost {
+  font-size: 22px;
+  padding-bottom: 7px;
+}

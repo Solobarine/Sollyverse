@@ -2,7 +2,12 @@
   "id": 0,
   "place": "Flec en Flac",
   "country": "Mauritius",
-  "overview": "The boundless beauty and soul enriching charm of Mauritius – a gem in Africa – magnetizes tourists from far and wide. This vacationer’s paradise is a flamboyant and fragrant bouquet of everything that takes your trip – whether family, honeymoon, or leisure, to the top. As you step on this piece of paradise, here are a few things to know about Mauritius that would help you have a holiday carnival! With these inside tips, you can make the most of your Mauritius vacation. So, if you are considering this glamorous getaway, here are a few things to know about Mauritius while planning your trip. Scan this handy Mauritius travel tips guide to make your vacation refreshing in every way."
+  "overview": "The boundless beauty and soul enriching charm of Mauritius – a gem in Africa – magnetizes tourists from far and wide. This vacationer’s paradise is a flamboyant and fragrant bouquet of everything that takes your trip – whether family, honeymoon, or leisure, to the top. As you step on this piece of paradise, here are a few things to know about Mauritius that would help you have a holiday carnival! With these inside tips, you can make the most of your Mauritius vacation. So, if you are considering this glamorous getaway, here are a few things to know about Mauritius while planning your trip. Scan this handy Mauritius travel tips guide to make your vacation refreshing in every way.",
+  "cost": 370,
+  "avaliable": "yes",
+  "img0": "url(./assets/mauritius-0.jpg)",
+  "img1": "url(./assets/mauritius-1.jpg)",
+  "img2": "url(./assets/mauritius-2.jpg)"
   },
 {
   "id": 1,
@@ -10,7 +15,10 @@
   "country": "Fiji",
   "overview": "Well known for its glorious tropical islands, Fiji is the quintessential South Pacific heaven. With more than 300 islands to look over, Fiji is blessed with turquoise waters, white sand beaches, pristine shorelines, jungle rivers, and a rich culture that makes it a fairyland indeed. There are various places to visit in Fiji that are ideal for those seeking a getaway from the hustle bustle of city life!",
   "cost": 330,
-  "avaliable": "yes"
+  "avaliable": "yes",
+  "img0": "url(./assets/fiji-0.jpg)",
+  "img1": "url(./assets/fiji-1.jpg)",
+  "img2": "url(./assets/fiji-2.jpg)"
   },
 {
   "id": 2,
@@ -18,7 +26,10 @@
   "country": "Columbia",
   "overview": "This fabulous destination holds the secrets of history within its walled city, on its balconies, and in the narrow stone walkways that inspired author Gabriel García Márquez, who was received the Nobel Prize in Literature in 1982.Framed by its stunning bay, Cartagena de Indias is one of the most beautiful, well-preserved cities in the Americas; a treasure that is currently one of the most heavily frequented tourist destinations in Colombia.",
   "cost": 425,
-  "avaliable": "yes"
+  "avaliable": "yes",
+  "img0": "url(./assets/cartagena-0.webp)",
+  "img1": "url(./assets/cartagena-1.webp)",
+  "img2": "url(./assets/cartagena-2.jpg)"
 },
 {
   "id": 3,
@@ -26,7 +37,11 @@
   "country": "Brazil",
   "overview": "Rio de Janeiro is well known for the beauty of its beaches and of its peaks, ridges, and hills—all partly covered by tropical forests. The city is a centre of leisure for Brazilian and foreign tourists, and people wearing bathing suits can be seen walking in the streets and along the beaches or traveling on the city’s buses. Perhaps at no time is the city’s festive reputation better displayed than during the annual pre-Lenten Carnival, which enlivens the city night and day with music, singing, parties, balls, and street parades of brilliantly costumed dancers performing to samba rhythms.",
   "cost": 590,
-  "avaliable": "yes"
+  "avaliable": "yes",
+  "img0": "url(./assets/rio-0.webp)",
+  "img1": "url(./assets/rio-1.jpg)",
+  "img2": "url(./assets/rio-2.jpg)"
+
   },
 {
   "id": 4,
@@ -34,7 +49,10 @@
   "country": "UAE",
   "overview": "The emirate is able to offer visitors the perfect mix of a cosmopolitan city with traditional aspects of the local culture. There is a feeling of energy and high spirits no matter where you go in Dubai, whether that be to watch fantastic firework displays or visiting local markets.From traditional restaurants serving local dishes to a wealth of entertainment options, Dubai has something to offer everyone.",
   "cost": 1040,
-  "avaliable": "yes"
+  "avaliable": "yes",
+  "img0": "url(./assets/dubai-0.jpg)",
+  "img1": "url(./assets/dubai-1.jpg)",
+  "img2": "url(./assets/dubai-2.jpg)"
   },
 {
   "id": 5,
@@ -42,7 +60,10 @@
   "country": "Spain",
   "overview": "This city is an absolute must place to visit if you are looking to discover the rich artistic and cultural history of Spain.The city is located just 70km south of Madrid and is the capital of the Castille La Mancha region. It is surrounded by the meandering Tajo River and is truly a beautiful sight, especially at night when its twinkling lights and beautifully lit buildings and monuments can be seen from afar.",
   "cost": 510,
-  "avaliable": "yes"
+  "avaliable": "yes",
+  "img0": "url(./assets/toledo-0.jpg)",
+  "img1": "url(./assets/toledo-1.jpg)",
+  "img2": "url(./assets/toledo-2.jpg)"
   },
   {
   "id": 6,
@@ -50,7 +71,10 @@
   "country": "Turkey",
   "overview": "Istanbul is known to be a vibrant city that has been spreading its mystical allure all over the world for a long time. An eclectic blend of age old traditions with the peculiar sophistication and style of Europe can be witnessed at the most popular places to visit in Istanbul. The city is known for its amazing time-honored attractions that have been beckoning tourists from all over the world. Besides, it is being noticed as a modern city with chic cocktail lounges and nightclubs, flourishing art and culture scene and designer boutiques selling stylish and elegant couture. Istanbul has everything for a discerning tourist!",
   "cost": 572,
-  "avaliable": "yes"
+  "avaliable": "yes",
+  "img0": "url(./assets/turkey-0.jpg)",
+  "img1": "url(./assets/turkey-1.jpg)",
+  "img2": "url(./assets/turkey-2.jpg)"
   },
   {
   "id": 7,
@@ -58,7 +82,10 @@
   "country": "Thailand",
   "overview": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia mollitia nesciunt, itaque odio, libero neque accusamus voluptas labore eos eum exercitationem! Officii    s distinctio architecto dolor non officia quidem nobis dolore porro nemo beatae alias modi minima eveniet nesciunt, mollitia cum magnam suscipit ab debitis ipsam saepe     fugit sit reiciendis. Ex, asperiores voluptatibus! Vero unde impedit deserunt maxime rerum voluptatibus, atque veritatis necessitatibus, magni velit hic dicta eaque mol    litia qui consequuntur saepe iusto. Voluptatem, odio iste.",
   "cost": 380,
-  "avaliable": "yes"
+  "avaliable": "yes",
+  "img0": "url(./assets/thailand-0.webp)",
+  "img1": "url(./assets/thailand-1.jpg)",
+  "img2": "url(./assets/thailand-2.jpg)"
   },
   {
   "id": 7,
@@ -66,7 +93,10 @@
   "country": "USA",
   "overview": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia mollitia nesciunt, itaque odio, libero neque accusamus voluptas labore eos eum exercitationem! Officii s distinctio architecto dolor non officia quidem nobis dolore porro nemo beatae alias modi minima eveniet nesciunt, mollitia cum magnam suscipit ab debitis ipsam saepe fugit sit reiciendis. Ex, asperiores voluptatibus! Vero unde impedit deserunt maxime rerum voluptatibus.",
   "cost": 720,
-  "avaliable": "yes"
+  "avaliable": "yes",
+  "img0": "url(./assets/maui-0.jpg)",
+  "img1": "url(./assets/maui-1.jpg)",
+  "img2": "url(./assets/maui-2.jpg)"
   },
   {
   "id": 8,
@@ -74,15 +104,21 @@
   "country": "Greece",
   "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic pariatur quam molestias tempore magni! Laborum veniam odit ex pariatur distinctio animi nemo non. Eligendi nam laborum qui numquam aliquid ex unde fuga? Eveniet, maiores quas doloribus inventore ex sed fugit officia aliquam cupiditate laudantium aliquid ab. Porro harum amet, natus, ratione, iure quas tempora aliquid aliquam at suscipit pariatur! Fuga dolore ut sapiente necessitatibus assumenda!",
   "cost": 533,
-  "avaliable": "yes"
+  "avaliable": "yes",
+  "img0": "url(./assets/santorini-0.jpg)",
+  "img1": "url(./assets/santorini-1.jpg)",
+  "img2": "url(./assets/santorini-2.jpg)"
   },
   {
   "id": 9,
-  "place": "Playa de Carmen",
+  "place": "Playa del Carmen",
   "country": "Mexico",
   "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores illo laborum rerum beatae, quo velit itaque harum. Laudantium fugiat facere nisi temporibus illum provident possimus earum eum quae quisquam, ut sunt, consectetur eligendi unde cum rerum enim, ullam dolores ducimus. Voluptatibus facilis ipsum voluptates quis reprehenderit, earum maxime.",
   "cost": 450,
-  "avaliable": "yes"
+  "avaliable": "yes",
+  "img0": "url(./assets/playa-del-carmen-0.jpg)",
+  "img1": "url(./assets/playa-del-carmen-1.jpg)",
+  "img2": "url(./assets/playa-del-carmen-2.jpg)"
   },
   {
   "id": 10,
@@ -90,7 +126,10 @@
   "country": "Metherlands",
   "overview": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia mollitia nesciunt, itaque odio, libero neque accusamus voluptas labore eos eum exercitationem! Officiis distinctio architecto dolor non officia quidem nobis dolore porro nemo beatae alias modi minima eveniet nesciunt, mollitia cum magnam suscipit ab debitis ipsam saepe fugit sit reiciendis. Ex, asperiores voluptatibus! Vero unde impedit deserunt maxime rerum voluptatibus.",
   "cost": 700,
-  "avaliable": "yes"
+  "avaliable": "yes",
+  "img0": "url(./assets/amsterdam-0.jpg)",
+  "img1": "url(./assets/amsterdam-1.jpg)",
+  "img2": "url(./assets/amsterdam-2.jpg)"
   },
   {
   "id": 11,
@@ -98,6 +137,9 @@
   "country": "Ceczh Republic",
   "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, laudantium repudiandae. Praesentium aliquid dolorum esse cumque iusto quas cum fuga commodi, accusantium ipsa pariatur odit deleniti delectus illo. Rerum eum minus aperiam nesciunt nam libero doloremque aut harum facilis? Soluta!",
   "cost": 650,
-  "avaliable": "yes"
+  "avaliable": "yes",
+  "img0": "url(./assets/prague-0.jpg)",
+  "img1": "url(./assets/prague-1.jpg)",
+  "img2": "url(./assets/prague-2.jpg)"
   }
 ]
