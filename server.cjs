@@ -4,6 +4,7 @@ const app = express();
 const Joi = require('joi');
 const path = require('path');
 const fs = require('fs');
+const {log} = require('console');
 
 const db = new database('database.db');
 db.loadDatabase();
@@ -53,8 +54,8 @@ app.post('/login', (req, res) => {
 
 // ----------- USer Home Page
 app.get('/home', (req, res) => {
-  res.status(201).sendFile(path.resolve(__dirname, './public/home.html'));
-})
+  res.status(201).sendFile(path.resolve(__dirname, './public/home.html'))
+});
 
 // ------------ Error Page
 app.get('/error', (req, res) => {
@@ -82,6 +83,15 @@ app.post('/register', (req, res) => {
       storeUser(body.First_Name, body.Last_Name, body.Email, body.Password)
       res.send({status:'Success', user: body});
   }
+})
+
+app.get('/places', (req, res) => {
+  res.send(destinations.json)
+  //res.status(201).sendFile(path.resolve(__dirname, './destinations.json'))
+})
+
+app.get('/destinations', (req, res) => {
+  res.status(201).sendFile(path.resolve(__dirname, './public/destinations.html'))
 })
  
 // Home

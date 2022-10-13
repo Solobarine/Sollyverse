@@ -3,6 +3,7 @@ const fullName = document.querySelector('#name');
 const destinations = document.querySelectorAll('.destination');
 const dDests = document.querySelectorAll('.dest');
 const vacations = document.querySelectorAll('.vacation');
+const viewAll = document.querySelectorAll('.view-all');
 console.log(fullName);
 
 const getUserName = async() => {
@@ -44,3 +45,9 @@ vacations.forEach(vac => vac.innerHTML = `<div class="vac-head">
                                             <p class="people">6 People like this</p>
                                           </div>
                                          </div>`);
+
+viewAll.forEach(btn => {
+  btn.addEventListener('click', () => {
+    window.open('/destinations', '_top')
+  })
+})
