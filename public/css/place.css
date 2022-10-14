@@ -63,12 +63,12 @@
 
 .popup {
   width: 70%;
-  height: 800px;
-  margin-left: 10%;
-  background-color: red;
+  margin-left: 15%;
+  background: linear-gradient(#79d85d, #fff);
   z-index: 1000;
   position: fixed;
   top: 90px;
+  border-radius: 5%;
 }
 
 .overlay {
@@ -78,4 +78,56 @@
   position: absolute;
   top: 0;
   opacity: .8;
+}
+
+.pop-div {
+  padding: 16px;
+}
+
+.cov {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.showcase {
+  width: 65%;
+  margin-left: 17%;
+  height: 500px;
+  background-size: cover;
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+
+.close {
+  font-size: 45px;
+}
+
+.pop-location {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.pop-sec {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.pop-country {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.desc {
+  font-size: 26px;
+  font-weight: 400;
+  height: 35%;
+  overflow-y: hidden;
+}
+
+.pop-cost {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 15px 0;
 }

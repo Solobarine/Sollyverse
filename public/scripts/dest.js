@@ -16,33 +16,25 @@ const showVacations = (arg) => {
   })
 }
 
-const popupContent = (arg,u, ind) => {
+const popupContent = (arg,u, v, ind) => {
   u.innerHTML = ''
   u.innerHTML += `<div class="pop-div">
-                                    <div class="showcase"></div>
-                                    <p class="close">&#10006</p>
-                                    <div class="pop-cover">
-                                    <p class="pop-location">${arg[ind].place}</p>
-                                    <div class="pop-sec">
-                                     <p class="pop-country">${arg[ind].country}</p>
-                                     <button class="pop-like">Like</button>
-                                    </div>
-                                    <p class="desc">${arg[ind].overview}</p>
-                                    <p class="pop-cost">$${arg[ind].cost}/week</p>
-                                    </div>
-                                    </div>`
-  //console.log(ind)
+                    <div class="cov">
+                    <div class="showcase"></div>
+                    <p class="close">&#10006</p>
+                    </div>
+                    <div class="pop-cover">
+                      <p class="pop-location">${arg[ind].place}</p>
+                      <div class="pop-sec">
+                        <p class="pop-country">${arg[ind].country}</p>
+                        <button class="pop-like">Like</button>
+                      </div>
+                      <p class="desc">${arg[ind].overview}</p>
+                      <p class="pop-cost">$${arg[ind].cost}/week</p>
+                    </div>
+                  </div>`
   u.className = 'popup';
-  console.log(arg)
-  console.log(u)
-  // overlay.className = 'overlay';
-
-}
-
-const removePopup = (u, v) => {
-  //u.innerHTML = `<h2 className="hry">Hey</h2>`
-  //u.classList.remove('popup')
-  //v.classList.remove('overlay')
+  v.className = 'overlay';
 }
 
 const showImage = (arg) => {
@@ -50,7 +42,7 @@ const showImage = (arg) => {
   const imgArr = Array.from(image)
   imgArr.forEach(item => {
     const index = imgArr.indexOf(item)
-    item.style.backgroundImage = arg[index].img0;
+    item.style.backgroundImage = arg[index].img[0];
     item.style.backgroundSize = 'cover';
   })
 }
@@ -61,38 +53,38 @@ const getDestinations = async() => {
   showVacations(json)
   showImage(json)
   popup(json)
-  //const overlay = document.querySelector('#lay');
 }
 
 getDestinations()
+
+const popupImage = (arg1, arg2) => {
+  const i = document.querySelector('.showcase');
+  arg1[arg2].img.forEach(pic => {
+     setInterval(() => {
+       i.style.backgroundImage = pic//arg1[arg2].img[arg2];
+       }, 2000)
+  })
+}
 
 // ---------- POP_UP
 const popup = async(js) => {
   const image = document.querySelectorAll('.vacation');
   const cover = document.querySelectorAll('.cover');
   const imgArr = Array.from(image);
-  const h = document.querySelector('#poppin');
-  console.log(h)
+  const pop = document.querySelector('#poppin');
+  const overlay = document.querySelector('#lay');
   imgArr.forEach(item => {
     const index = imgArr.indexOf(item);
     item.addEventListener('click', (e) => {
       console.log(index);
-      popupContent(js, h, index)
+      popupContent(js, pop, overlay, index)
       const close = document.querySelector('.close')
         close.addEventListener('click', () => {
-        h.innerHTML = '';
-        h.classList.remove('popup');
-        console.log('click')
-      })
+        pop.innerHTML = '';
+        pop.classList.remove('popup');
+        overlay.classList.remove('overlay');
+        })
+      popupImage(js, index)
     })
   })
-}
-
-const closeButton = (i) => {
-  document.querySelector(selectors)
-}
-
-const getClose = () => {
-  const close = document.querySelector('.close')
-  console.log(close)
 }
