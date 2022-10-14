@@ -3,11 +3,18 @@
   padding: 0;
 }
 
+.heading {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  padding: 30px;
+}
+
 #all-destinations {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 5%;
+  margin: 0 5%;
 }
 
 .vacation {
@@ -48,4 +55,27 @@
 .cost {
   font-size: 22px;
   padding-bottom: 7px;
+}
+
+.hidden {
+  display: none;
+}
+
+.popup {
+  width: 70%;
+  height: 800px;
+  margin-left: 10%;
+  background-color: red;
+  z-index: 1000;
+  position: fixed;
+  top: 90px;
+}
+
+.overlay {
+  background-color: grey;
+  width: 100vw;
+  height: 400vh;
+  position: absolute;
+  top: 0;
+  opacity: .8;
 }

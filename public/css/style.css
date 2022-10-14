@@ -218,6 +218,7 @@ body {
 
 .view-all {
   margin-right: 34px;
+  cursor: pointer;
 }
 
 .d-dest {
