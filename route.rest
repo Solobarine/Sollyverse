@@ -1,0 +1,9 @@
+http://localhost:3000
+POST /user
+{
+  "First_Name": "Kenny",
+  "Last_Name": "Dest",
+  "Email": "mathdaddy47@gmail.com",
+  "Password": "destructo47"
+}
+

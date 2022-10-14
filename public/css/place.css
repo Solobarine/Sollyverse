@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  padding: 30px;
+}
+
+#all-destinations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 5%;
+}
+
+.vacation {
+  width: 22%;
+  height: 480px;
+  margin-bottom: 40px;
+  font-size: 26px;
+  border-radius: 35px;
+}
+
+.cover {
+  width: 82%;
+  margin-left: 7%;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 350px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+
+.vac-location {
+  font-weight: 600;
+  padding: 5px;
+}
+
+.sec-1 {
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.like {
+  padding: 10px;
+  font-size: 13px;
+  background-color: pink;
+  color: #fff;
+}
+
+.cost {
+  font-size: 22px;
+  padding-bottom: 7px;
+}
+
+.hidden {
+  display: none;
+}
+
+.popup {
+  width: 70%;
+  margin-left: 15%;
+  background: linear-gradient(#79d85d, #fff);
+  z-index: 1000;
+  position: fixed;
+  top: 90px;
+  border-radius: 5%;
+}
+
+.overlay {
+  background-color: grey;
+  width: 100vw;
+  height: 400vh;
+  position: absolute;
+  top: 0;
+  opacity: .8;
+}
+
+.pop-div {
+  padding: 16px;
+}
+
+.cov {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.showcase {
+  width: 65%;
+  margin-left: 17%;
+  height: 500px;
+  background-size: cover;
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+
+.close {
+  font-size: 45px;
+}
+
+.pop-location {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.pop-sec {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.pop-country {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.desc {
+  font-size: 26px;
+  font-weight: 400;
+  height: 35%;
+  overflow-y: hidden;
+}
+
+.pop-cost {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 15px 0;
+}
