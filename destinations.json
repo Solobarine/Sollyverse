@@ -101,7 +101,7 @@
   {
   "id": 10,
   "place": "Amsterdam",
-  "country": "Metherlands",
+  "country": "Netherlands",
   "overview": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia mollitia nesciunt, itaque odio, libero neque accusamus voluptas labore eos eum exercitationem! Officiis distinctio architecto dolor non officia quidem nobis dolore porro nemo beatae alias modi minima eveniet nesciunt, mollitia cum magnam suscipit ab debitis ipsam saepe fugit sit reiciendis. Ex, asperiores voluptatibus! Vero unde impedit deserunt maxime rerum voluptatibus.",
   "cost": 700,
   "avaliable": "yes",
@@ -115,5 +115,23 @@
   "cost": 650,
   "avaliable": "yes",
   "img": ["url(./assets/prague-0.jpg)", "url(./assets/prague-1.jpg)", "url(./assets/prague-2.jpg)"]
+  },
+  {
+  "id": 12,
+  "place": "Chefchaouen",
+  "country": "Morocco",
+  "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eveniet illum quidem voluptatibus impedit tempora necessitatibus! Fuga fugiat atque reprehenderit a labore dolorem dolores quasi? Repellat, tempora ullam, accusamus impedit maiores nesciunt a voluptatum aspernatur mollitia temporibus sit dolore voluptate magnam ut id tempore vero.",
+  "cost": 530,
+  "avaliable": "yes",
+  "img": ["url(./assets/chefchaouen-0.jpg)", "url(./assets/chefchaouen-1.jpg)", "url(./assets/chefchaouen-2.jpeg)"]
+  },
+  {
+  "id": 13,
+  "place": "Cairo",
+  "country": "Egypt",
+  "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eveniet illum quidem voluptatibus impedit tempora necessitatibus! Fuga fugiat atque reprehenderit a labore dolorem dolores quasi? Repellat, tempora ullam, accusamus impedit maiores nesciunt a voluptatum aspernatur mollitia temporibus sit dolore voluptate magnam ut id tempore vero.",
+  "cost": 600,
+  "avaliable": "yes",
+  "img": ["url(./assets/cairo-0.jpg)", "url(./assets/cairo-1.jpg)", "url(./assets/cairo-2.webp)"]
   }
 ]
