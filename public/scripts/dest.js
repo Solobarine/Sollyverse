@@ -13,6 +13,10 @@ const showVacations = (arg) => {
                                     <p class="cost">$${arg[index].cost}/week</p>
                                     </div>
                                   </div>`
+    const likeBtn = document.querySelector('.like');
+    likeBtn.addEventListener('click', () => {
+      postLikes(index)
+    })
   })
 }
 
@@ -62,30 +66,16 @@ const getDestinations = async() => {
 getDestinations()
 
 const popupImage = (arg1, arg2) => {
+  let n = 0
   const i = document.querySelector('.showcase');
   const style = document.createElement('style');
   const image = arg1[arg2].img
-  console.log(image, image[1])
-    /*style.innerHTML = `@keyframes change {
-    0% {
-      backgroundImage: ${image[0]};
-    }
-    33% {
-      backgroundImage: ${image[1]};
-    }
-    66% {
-      backgroundImage: ${image[2]};
-    }
-    100% {
-      backgroundImage: ${image[0]};
-    }
+  console.log(image.length)
+  const change = (y) => { i.style.backgroundImage = image[y] }
+  for (let j = 0; j < image.length; j++) {
+    setTimeout(change(j), 3000)
+    console.log(j)
   }
-
-  .showcase {
-    animation: change 10s infinite ease-in-out;
-  }`
-
-  i.appendChild(style);*/
 }
 
 // ---------------- Post Likes

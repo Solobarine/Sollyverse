@@ -133,5 +133,104 @@
   "cost": 600,
   "avaliable": "yes",
   "img": ["url(./assets/cairo-0.jpg)", "url(./assets/cairo-1.jpg)", "url(./assets/cairo-2.webp)"]
+  },
+  {
+  "id": 14,
+  "place": "Doha",
+  "country": "Qatar",
+  "overview":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur accusamus quam ab dignissimos, nobis magnam vel, porro blanditiis velit asperiores. Dolorum sequi accusamus nobis vel dignissimos repellat itaque aliquid debitis in soluta molestiae inventore dolor earum veritatis ullam, dicta commodi quae non a nihil facilis pariatur perferendis cum. Optio?",
+  "cost": 995,
+  "avaliable": "yes",
+  "img":  ["url(./assets/doha-0.webp", "url(./assets/doha-1.jpg", "url(./assets/doha-2.jpg"]
+  },
+  {
+  "id": 15,
+  "place": "Bern",
+  "country": "Switzerland",
+  "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam perspiciatis facere temporibus impedit, nihil provident natus animi nulla tempora dolore reprehenderit quasi dolor incidunt asperiores quo accusantium iure, ex libero totam. Inventore in aperiam accusamus, ipsam veniam illum iure adipisci, ab vero doloremque labore praesentium incidunt eius? Dignissimos, repellendus quia?",
+  "cost": 870,
+  "avaliable": "yes",
+  "img": ["url(./assets/bern-0.jpg)", "url(./assets/bern-1.jpg)", "url(./assets/bern-2.jpg)"]
+  },
+  {
+    "id": 16,
+    "place": "Havana",
+    "country": "Cuba",
+    "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam perspiciatis facere temporibus impedit, nihil provident natus animi nulla tempora dolore reprehenderit quasi dolor incidunt asperiores quo accusantium iure, ex libero totam. Inventore in aperiam accusamus, ipsam veniam illum iure adipisci, ab vero doloremque labore praesentium incidunt eius? Dignissimos, repellendus quia?",
+    "cost": 610,
+    "avaliable": "yes",
+    "img": ["url(./assets/havana-0.webp)", "url(./assets/havana-1.jpg)", "url(./assets/havana-2.jpg)"]
+  },
+  {
+  "id": 17,
+  "place": "Venice",
+  "country": "Italy",
+  "overview": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam et tempora est at. At praesentium eveniet magnam minima adipisci consectetur laboriosam laborum quibusdam eos quis, et facere cupiditate aliquam cum ducimus voluptatum asperiores quae labore impedit. Tempora sed, ipsam fuga at itaque praesentium, laborum eligendi explicabo facere placeat optio labore.",
+  "cost": 700,
+  "avaliable": "yes",
+  "img": ["url(./assets/venice-0.jpg)", "url(./assets/venice-1.jpg)", "url(./assets/venice-2.jpg)"]
+  },
+  {
+  "id": 18,
+  "place": "Tokyo",
+  "country": "Japan",
+  "overview": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, aliquid temporibus? Cupiditate maxime quaerat veniam ut deserunt consectetur nesciunt doloribus obcaecati voluptate, inventore eligendi at, veritatis amet minima voluptatum ullam? Fuga tempora vitae pariatur ab corrupti, eveniet iste, numquam sint earum impedit quas, aliquid cumque!",
+  "cost": 440,
+  "avaliable": "yes",
+  "img": ["url(./assets/tokyo-0.jpg)", "url(./assets/tokyo-1.jpg)", "url(./assets/tokyo-2.jpg)"]
+  },
+  {
+  "id": 19,
+  "place": "Rabat",
+  "country": "Morocco",
+  "overview": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, aliquid temporibus? Cupiditate maxime quaerat veniam ut deserunt consectetur nesciunt doloribus obcaecati voluptate, inventore eligendi at, veritatis amet minima voluptatum ullam? Fuga tempora vitae pariatur ab corrupti, eveniet iste, numquam sint earum impedit quas, aliquid cumque!",
+  "cost": 650,
+  "avaliable": "yes",
+  "img": ["url(./assets/rabat-0.jpg)", "url(./assets/rabat-1.jpeg)", "url(./assets/rabat-2.jpg)"]
+  },
+  {
+  "id": 20,
+  "place": "Svalbard",
+  "country": "Norway",
+  "overview": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti odit et illum! Non velit voluptatibus quam repudiandae nostrum laudantium expedita doloremque quis at placeat enim, est laboriosam veniam sequi, architecto ex maiores nam hic officiis quod dicta voluptate. Iste delectus, amet corporis quidem possimus qui, odit dicta sunt commodi, porro perspiciatis omnis sint nihil culpa?",
+  "cost": 680,
+  "avaliable": "yes",
+  "img": ["url(./assets/svalbard-0.jpeg), url(./assets/svalbard-1.jpg), url(./assets/svalbard-2.jpg)"]
+  },
+  {
+  "id": 21,
+  "place": "Budapest",
+  "country": "Hungary",
+  "overview": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti odit et illum! Non velit voluptatibus quam repudiandae nostrum laudantium expedita doloremque quis at placeat enim, est laboriosam veniam sequi, architecto ex maiores nam hic officiis quod dicta voluptate. Iste delectus, amet corporis quidem possimus qui, odit dicta sunt commodi, porro perspiciatis omnis sint nihil culpa?",
+  "cost": 710,
+  "avaliable": "yes",
+  "img": ["url(./assets/budapest-0.jpg)", "url(./assets/budapest-1.jpg)", "url(./assets/budapest-2.jpg)"]
+  },
+  {
+  "id": 22,
+  "place": "Texas",
+  "country": "USA",
+  "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magni fugit, laboriosam ipsa dolore itaque tempore commodi sint illum asperiores sapiente dolores perferendis! Aliquid, labore! Nesciunt nisi consectetur eius soluta sint. Eligendi dolorum sint natus repudiandae quae laboriosam tenetur odio!",
+  "cost": 783,
+  "avaliable": "yes",
+  "img": ["url(./assets/texas-0.jpg)", "url(./assets/texas-1.jpg)", "url(./assets/texas-2.jpg)"]
+  },
+  {
+  "id": 23,
+  "place": "St. Petersburg",
+  "country": "Russia",
+  "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repellendus porro nisi eaque velit pariatur culpa omnis quos id sunt aliquam enim tempora fugit, eos reiciendis accusamus laborum perspiciatis officia voluptates sed consequatur fugiat error. At praesentium ratione id sit, officiis voluptatem inventore repudiandae, aut perferendis ullam doloribus!",
+  "cost": 420,
+  "avaliable": "yes",
+  "img": ["url(./assets/stpetersburg-0.jpg)", "url(./assets/stpetersburg-1.jpg)", "url(./assets/stpetersburg-2.jpg)"]
+  },
+  {
+  "id": 24,
+  "place": "Basel",
+  "country": "Switzerland",
+  "overview": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, aut deserunt. Adipisci eaque blanditiis est unde, nihil, corporis autem cumque placeat deserunt praesentium aspernatur neque quod qui veritatis quibusdam delectus quos amet, voluptas laborum. Ducimus suscipit, a hic explicabo distinctio excepturi. Nesciunt excepturi neque, sequi qui necessitatibus exercitationem explicabo laborum quos quo.",
+  "cost": 870,
+  "avaliable": "yes",
+  "img": ["url(./assets/basel-0.jpg)", "url(./assets/basel-1.jpg)", "url(./assets/basel-2.jpg)"]
   }
 ]
