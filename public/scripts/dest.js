@@ -35,6 +35,10 @@ const popupContent = (arg,u, v, ind) => {
                   </div>`
   u.className = 'popup';
   v.className = 'overlay';
+  const likeBtn = document.querySelector('.pop-like');
+  likeBtn.addEventListener('click', () => {
+    postLikes(ind)
+  })
 }
 
 const showImage = (arg) => {
@@ -62,7 +66,7 @@ const popupImage = (arg1, arg2) => {
   const style = document.createElement('style');
   const image = arg1[arg2].img
   console.log(image, image[1])
-  style.innerHTML = `@keyframes change {
+    /*style.innerHTML = `@keyframes change {
     0% {
       backgroundImage: ${image[0]};
     }
@@ -81,7 +85,25 @@ const popupImage = (arg1, arg2) => {
     animation: change 10s infinite ease-in-out;
   }`
 
-  i.appendChild(style);
+  i.appendChild(style);*/
+}
+
+// ---------------- Post Likes
+const postLikes = async(num) => {
+  const url = '/destinations/like'
+  const key = "item" + num
+  console.log(key)
+  const data = { "Like": key}
+  const options = {
+    "method": "POST",
+    "body": JSON.stringify(data),
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+  const sent = await fetch(url, options)
+  const res = await sent.text()
+  console.log(res)
 }
 
 // ---------- POP_UP

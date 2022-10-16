@@ -4,9 +4,10 @@ const app = express();
 const Joi = require('joi');
 const path = require('path');
 const fs = require('fs');
-const {log} = require('console');
 
+const likes = new database('likes.db');
 const db = new database('database.db');
+likes.loadDatabase();
 db.loadDatabase();
 
 app.use(express.static('./public'))
@@ -52,7 +53,7 @@ app.post('/login', (req, res) => {
   })
 })
 
-// ----------- USer Home Page
+// ----------- User Home Page
 app.get('/home', (req, res) => {
   res.status(201).sendFile(path.resolve(__dirname, './public/home.html'))
 });
@@ -84,7 +85,7 @@ app.post('/register', (req, res) => {
       res.send({status:'Success', user: body});
   }
 })
-
+// Destination data
 app.get('/places', (req, res) => {
   fs.readFile('./destinations.json', (err, data) => {
     if (err) {
@@ -93,10 +94,21 @@ app.get('/places', (req, res) => {
     res.status(201).send(data)
   })
 })
-
+// Destinations Page
 app.get('/destinations', (req, res) => {
   res.status(201).sendFile(path.resolve(__dirname, './public/destinations.html'))
 })
- 
-// Home
+
+// Like Route
+app.get('/destinations/like/:params.id', (req, res) => {
+  
+})
+
+// Post Likes
+app.post('/destinations/like', (req, res) => {
+  const request = req.body
+  console.log(request)
+  likes.insert(request)
+  res.status(201).send({ "status": req.body})
+})
 app.listen(3000, () => console.log('Server on port 3000'))
