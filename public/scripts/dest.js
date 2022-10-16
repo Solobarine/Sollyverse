@@ -59,11 +59,29 @@ getDestinations()
 
 const popupImage = (arg1, arg2) => {
   const i = document.querySelector('.showcase');
-  arg1[arg2].img.forEach(pic => {
-     setInterval(() => {
-       i.style.backgroundImage = pic//arg1[arg2].img[arg2];
-       }, 2000)
-  })
+  const style = document.createElement('style');
+  const image = arg1[arg2].img
+  console.log(image, image[1])
+  style.innerHTML = `@keyframes change {
+    0% {
+      backgroundImage: ${image[0]};
+    }
+    33% {
+      backgroundImage: ${image[1]};
+    }
+    66% {
+      backgroundImage: ${image[2]};
+    }
+    100% {
+      backgroundImage: ${image[0]};
+    }
+  }
+
+  .showcase {
+    animation: change 10s infinite ease-in-out;
+  }`
+
+  i.appendChild(style);
 }
 
 // ---------- POP_UP
@@ -88,3 +106,5 @@ const popup = async(js) => {
     })
   })
 }
+const style = document.styleSheets[0]
+console.log(style)

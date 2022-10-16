@@ -114,7 +114,7 @@
   "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, laudantium repudiandae. Praesentium aliquid dolorum esse cumque iusto quas cum fuga commodi, accusantium ipsa pariatur odit deleniti delectus illo. Rerum eum minus aperiam nesciunt nam libero doloremque aut harum facilis? Soluta!",
   "cost": 650,
   "avaliable": "yes",
-  "img": ["url(./assets/prague-0.jpg)", "url(./assets/prague-1.jpg)", "url(./assets/prague-2.jpg)"]
+  "img": ["url(./assets/prague-0.jpg)", "url(./assets/prague-1.jpg)", "url(./assets/prague-2.webp)"]
   },
   {
   "id": 12,
