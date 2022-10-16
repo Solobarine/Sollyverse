@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  width: 1200px;
+  /*width: 1200px;*/
   background: linear-gradient( #79d58d, #fff);
 }
 
@@ -174,7 +174,7 @@ body {
 }
 
 .destination {
-  width: 30%;
+  width: 20%;
   height: 240px;
   background: red;
   border-radius: 20px;
@@ -294,10 +294,10 @@ body {
 }
 
 .picture {
-  height: 80px;
+  height: 140px;
   width: 40%;
   background:blue;
-  border-radius: 50px;
+  border-radius: 80px;
 }
 
 #fame {
