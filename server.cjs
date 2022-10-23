@@ -100,8 +100,19 @@ app.get('/destinations', (req, res) => {
 })
 
 // Like Route
-app.get('/destinations/like/:params.id', (req, res) => {
-  
+/*app.get('/getLikes', (req, res) => {
+  likes.find({"Likes": "item" + req.params.id}, (err, doc) => {
+    console.log(id);
+    res.send(doc.length)
+  }) 
+})*/
+
+app.get('/getLikes/:id', (req, res) => {
+  const like = "item" + req.params.id;
+  console.log(like)
+  likes.find({ "Like": like}, (err, doc) => {
+    res.status(201).send({"status": doc.length})
+  })
 })
 
 // Post Likes
@@ -109,6 +120,6 @@ app.post('/destinations/like', (req, res) => {
   const request = req.body
   console.log(request)
   likes.insert(request)
-  res.status(201).send({ "status": req.body})
+  res.status(201).send({ "status": req.body })
 })
 app.listen(3000, () => console.log('Server on port 3000'))

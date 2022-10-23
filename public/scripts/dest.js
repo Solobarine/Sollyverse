@@ -4,21 +4,37 @@ const showVacations = (arg) => {
   arg.forEach(item => {
     const index = arg.indexOf(item)
     allDestinations.innerHTML += `<div class="vacation">
+                                    <p class="see-more">See More</p>
                                     <div class="cover">
                                     <p class="vac-location">${arg[index].place}</p>
                                     <div class="sec-1">
                                      <p class="vac-country">${arg[index].country}</p>
-                                     <button class="like">Like</button>
+                                     <div class="like-div0">
+                                     <p id="${index}" class="likeCount"></p>
+                                     <button id="${index}" class="like">Like</button>
+                                     </div>
                                     </div>
                                     <p class="cost">$${arg[index].cost}/week</p>
                                     </div>
                                   </div>`
-    const likeBtn = document.querySelector('.like');
+    })
+  const likeCount = document.querySelectorAll('.likeCount')
+  const likeArr = Array.from(likeCount);
+  likeArr.forEach(num => {
+    const index = likeArr.indexOf(num);
+    likeNumber(num, index);
+  })
+  const likeBtns = document.querySelectorAll('.like');
+  const likeBtnArr = Array.from(likeBtns);
+  likeBtnArr.forEach(likeBtn => {
+    const index = likeBtnArr.indexOf(likeBtn);
     likeBtn.addEventListener('click', () => {
-      postLikes(index)
+      postLikes(index);
+      likeNumber(likeArr[index], index)
     })
   })
 }
+
 
 const popupContent = (arg,u, v, ind) => {
   u.innerHTML = ''
@@ -31,7 +47,10 @@ const popupContent = (arg,u, v, ind) => {
                       <p class="pop-location">${arg[ind].place}</p>
                       <div class="pop-sec">
                         <p class="pop-country">${arg[ind].country}</p>
+                        <div class="like-div">
+                        <p class="like-num"></p>
                         <button class="pop-like">Like</button>
+                        </div>
                       </div>
                       <p class="desc">${arg[ind].overview}</p>
                       <p class="pop-cost">$${arg[ind].cost}/week</p>
@@ -40,9 +59,18 @@ const popupContent = (arg,u, v, ind) => {
   u.className = 'popup';
   v.className = 'overlay';
   const likeBtn = document.querySelector('.pop-like');
+  const likeNum = document.querySelector('.like-num')
+  likeNumber(likeNum, ind) 
   likeBtn.addEventListener('click', () => {
     postLikes(ind)
+    likeNumber(likeNum, ind)
   })
+}
+
+export const likeNumber = async(ele, number) => {
+  const likeData = await fetch('/getLikes/' + number);
+  const json = await likeData.json();
+  ele.textContent = json.status
 }
 
 const showImage = (arg) => {
@@ -70,20 +98,17 @@ const popupImage = (arg1, arg2) => {
   const i = document.querySelector('.showcase');
   const style = document.createElement('style');
   const image = arg1[arg2].img
-  console.log(image.length)
   const change = (y) => { i.style.backgroundImage = image[y] }
   for (let j = 0; j < image.length; j++) {
     setTimeout(change(j), 3000)
-    console.log(j)
   }
 }
 
 // ---------------- Post Likes
-const postLikes = async(num) => {
+ export const postLikes = async(num) => {
   const url = '/destinations/like'
   const key = "item" + num
-  console.log(key)
-  const data = { "Like": key}
+  const data = { "id": num, "Like": key }
   const options = {
     "method": "POST",
     "body": JSON.stringify(data),
@@ -92,31 +117,28 @@ const postLikes = async(num) => {
     }
   }
   const sent = await fetch(url, options)
-  const res = await sent.text()
-  console.log(res)
+  const res = await sent.text();
 }
 
 // ---------- POP_UP
 const popup = async(js) => {
-  const image = document.querySelectorAll('.vacation');
-  const cover = document.querySelectorAll('.cover');
+  const image = document.querySelectorAll('.see-more');
+  const cover = document.querySelectorAll('.likeCount');
   const imgArr = Array.from(image);
   const pop = document.querySelector('#poppin');
   const overlay = document.querySelector('#lay');
   imgArr.forEach(item => {
     const index = imgArr.indexOf(item);
     item.addEventListener('click', (e) => {
-      console.log(index);
       popupContent(js, pop, overlay, index)
       const close = document.querySelector('.close')
         close.addEventListener('click', () => {
         pop.innerHTML = '';
         pop.classList.remove('popup');
-        overlay.classList.remove('overlay');
+          overlay.classList.remove('overlay');
+          likeNumber(cover[index], index);
         })
       popupImage(js, index)
     })
   })
 }
-const style = document.styleSheets[0]
-console.log(style)

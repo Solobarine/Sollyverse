@@ -16,6 +16,8 @@ const getUserName = async() => {
 }
 getUserName();
 
+
+
 destinations.forEach(destination => destination.innerHTML = `<div class="d-heading">
                                                               <h3 class="vac-name">Head</h3>
                                                               <div class="loc-section">
