@@ -1,12 +1,51 @@
 .container {
   height: 100vh;
-  background-color: rgba(132,251,223, 1);
+  background-color: grey;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 92%;
+  margin-left: 4%;
+  padding-top: 50px;
+}
+
+.logo {
+  font-size: 25px;
+}
+
+.nav {
+  width: 45%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.head-buttons {
+  width: 18%;
+}
+
+.head-buttons > button {
+  width: 36%;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+}
+
+.login {
+  background-color: #20b870;
 }
 
 #top,
 #bottom {
   height: 20vh;
-  background-color: #20b970;
+  background-image: linear-gradient(45deg, #20b970, grey)
 }
 
 #top {
@@ -19,8 +58,6 @@
 
 #middle {
   height: 55vh;
-  background-color: rgba(132,251,223, 1);
-
 }
 
 .form {
@@ -41,9 +78,10 @@
 }
 
 .comment {
-  height: 50%;
+  height: 64%;
   font-size: 18px;
   border: none;
+  border-radius: 12px;
 }
 
 .subBtn {
@@ -58,4 +96,10 @@
 
 .subBtn:hover {
   background-color: #d2f36f;
+}
+
+.copyright {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 45px;
 }

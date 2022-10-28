@@ -96,7 +96,7 @@ app.get('/places', (req, res) => {
 })
 // Destinations Page
 app.get('/destinations', (req, res) => {
-  res.status(201).sendFile(path.resolve(__dirname, './public/destinations.html'))
+  res.status(201).sendFile(path.resolve(__dirname, './public/home/destinations.html'))
 })
 
 // Get Single Likes

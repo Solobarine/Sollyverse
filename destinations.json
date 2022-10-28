@@ -5,7 +5,7 @@
   "overview": "The boundless beauty and soul enriching charm of Mauritius – a gem in Africa – magnetizes tourists from far and wide. This vacationer’s paradise is a flamboyant and fragrant bouquet of everything that takes your trip – whether family, honeymoon, or leisure, to the top. As you step on this piece of paradise, here are a few things to know about Mauritius that would help you have a holiday carnival! With these inside tips, you can make the most of your Mauritius vacation. So, if you are considering this glamorous getaway, here are a few things to know about Mauritius while planning your trip. Scan this handy Mauritius travel tips guide to make your vacation refreshing in every way.",
   "cost": 370,
   "avaliable": "yes",
-  "img": ["url(./assets/mauritius-0.jpg)", "url(./assets/mauritius-1.jpg)", "url(./assets/mauritius-2.jpg)"]
+  "img": ["url(/assets/mauritius-0.jpg)", "url(/assets/mauritius-1.jpg)", "url(/assets/mauritius-2.jpg)"]
   },
 {
   "id": 1,
@@ -14,7 +14,7 @@
   "overview": "Well known for its glorious tropical islands, Fiji is the quintessential South Pacific heaven. With more than 300 islands to look over, Fiji is blessed with turquoise waters, white sand beaches, pristine shorelines, jungle rivers, and a rich culture that makes it a fairyland indeed. There are various places to visit in Fiji that are ideal for those seeking a getaway from the hustle bustle of city life!",
   "cost": 330,
   "avaliable": "yes",
-  "img": ["url(./assets/fiji-0.jpg)", "url(./assets/fiji-1.jpg)", "url(./assets/fiji-2.jpg)"]
+  "img": ["url(/assets/fiji-0.jpg)", "url(/assets/fiji-1.jpg)", "url(/assets/fiji-2.jpg)"]
   },
 {
   "id": 2,
@@ -23,7 +23,7 @@
   "overview": "This fabulous destination holds the secrets of history within its walled city, on its balconies, and in the narrow stone walkways that inspired author Gabriel García Márquez, who was received the Nobel Prize in Literature in 1982.Framed by its stunning bay, Cartagena de Indias is one of the most beautiful, well-preserved cities in the Americas; a treasure that is currently one of the most heavily frequented tourist destinations in Colombia.",
   "cost": 425,
   "avaliable": "yes",
-  "img": ["url(./assets/cartagena-0.webp)", "url(./assets/cartagena-1.webp)", "url(./assets/cartagena-2.jpg)"]
+  "img": ["url(/assets/cartagena-0.webp)", "url(./assets/cartagena-1.webp)", "url(/assets/cartagena-2.jpg)"]
 },
 {
   "id": 3,
@@ -32,7 +32,7 @@
   "overview": "Rio de Janeiro is well known for the beauty of its beaches and of its peaks, ridges, and hills—all partly covered by tropical forests. The city is a centre of leisure for Brazilian and foreign tourists, and people wearing bathing suits can be seen walking in the streets and along the beaches or traveling on the city’s buses. Perhaps at no time is the city’s festive reputation better displayed than during the annual pre-Lenten Carnival, which enlivens the city night and day with music, singing, parties, balls, and street parades of brilliantly costumed dancers performing to samba rhythms.",
   "cost": 590,
   "avaliable": "yes",
-  "img": ["url(./assets/rio-0.webp)", "url(./assets/rio-1.jpg)", "url(./assets/rio-2.jpg)"]
+  "img": ["url(/assets/rio-0.webp)", "url(/assets/rio-1.jpg)", "url(/assets/rio-2.jpg)"]
 
   },
 {
@@ -42,7 +42,7 @@
   "overview": "The emirate is able to offer visitors the perfect mix of a cosmopolitan city with traditional aspects of the local culture. There is a feeling of energy and high spirits no matter where you go in Dubai, whether that be to watch fantastic firework displays or visiting local markets.From traditional restaurants serving local dishes to a wealth of entertainment options, Dubai has something to offer everyone.",
   "cost": 1040,
   "avaliable": "yes",
-  "img": ["url(./assets/dubai-0.jpg)", "url(./assets/dubai-1.jpg)", "url(./assets/dubai-2.jpg)"]
+  "img": ["url(/assets/dubai-0.jpg)", "url(/assets/dubai-1.jpg)", "url(/assets/dubai-2.jpg)"]
   },
 {
   "id": 5,
@@ -51,7 +51,7 @@
   "overview": "This city is an absolute must place to visit if you are looking to discover the rich artistic and cultural history of Spain.The city is located just 70km south of Madrid and is the capital of the Castille La Mancha region. It is surrounded by the meandering Tajo River and is truly a beautiful sight, especially at night when its twinkling lights and beautifully lit buildings and monuments can be seen from afar.",
   "cost": 510,
   "avaliable": "yes",
-  "img": ["url(./assets/toledo-0.jpg)", "url(./assets/toledo-1.jpg)", "url(./assets/toledo-2.jpg)"]
+  "img": ["url(/assets/toledo-0.jpg)", "url(/assets/toledo-1.jpg)", "url(/assets/toledo-2.jpg)"]
   },
   {
   "id": 6,
@@ -60,7 +60,7 @@
   "overview": "Istanbul is known to be a vibrant city that has been spreading its mystical allure all over the world for a long time. An eclectic blend of age old traditions with the peculiar sophistication and style of Europe can be witnessed at the most popular places to visit in Istanbul. The city is known for its amazing time-honored attractions that have been beckoning tourists from all over the world. Besides, it is being noticed as a modern city with chic cocktail lounges and nightclubs, flourishing art and culture scene and designer boutiques selling stylish and elegant couture. Istanbul has everything for a discerning tourist!",
   "cost": 572,
   "avaliable": "yes",
-  "img": ["url(./assets/turkey-0.jpg)", "url(./assets/turkey-1.jpg)", "url(./assets/turkey-2.jpg)"]
+  "img": ["url(/assets/turkey-0.jpg)", "url(/assets/turkey-1.jpg)", "url(/assets/turkey-2.jpg)"]
   },
   {
   "id": 7,
@@ -69,7 +69,7 @@
   "overview": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia mollitia nesciunt, itaque odio, libero neque accusamus voluptas labore eos eum exercitationem! Officii    s distinctio architecto dolor non officia quidem nobis dolore porro nemo beatae alias modi minima eveniet nesciunt, mollitia cum magnam suscipit ab debitis ipsam saepe     fugit sit reiciendis. Ex, asperiores voluptatibus! Vero unde impedit deserunt maxime rerum voluptatibus, atque veritatis necessitatibus, magni velit hic dicta eaque mol    litia qui consequuntur saepe iusto. Voluptatem, odio iste.",
   "cost": 380,
   "avaliable": "yes",
-  "img": ["url(./assets/thailand-0.webp)", "url(./assets/thailand-1.jpg)", "url(./assets/thailand-2.jpg)"]
+  "img": ["url(/assets/thailand-0.webp)", "url(/assets/thailand-1.jpg)", "url(/assets/thailand-2.jpg)"]
   },
   {
   "id": 7,
@@ -78,7 +78,7 @@
   "overview": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia mollitia nesciunt, itaque odio, libero neque accusamus voluptas labore eos eum exercitationem! Officii s distinctio architecto dolor non officia quidem nobis dolore porro nemo beatae alias modi minima eveniet nesciunt, mollitia cum magnam suscipit ab debitis ipsam saepe fugit sit reiciendis. Ex, asperiores voluptatibus! Vero unde impedit deserunt maxime rerum voluptatibus.",
   "cost": 720,
   "avaliable": "yes",
-  "img": ["url(./assets/maui-0.jpg)", "url(./assets/maui-1.jpg)", "url(./assets/maui-2.jpg)"]
+  "img": ["url(/assets/maui-0.jpg)", "url(/assets/maui-1.jpg)", "url(/assets/maui-2.jpg)"]
   },
   {
   "id": 8,
@@ -87,7 +87,7 @@
   "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic pariatur quam molestias tempore magni! Laborum veniam odit ex pariatur distinctio animi nemo non. Eligendi nam laborum qui numquam aliquid ex unde fuga? Eveniet, maiores quas doloribus inventore ex sed fugit officia aliquam cupiditate laudantium aliquid ab. Porro harum amet, natus, ratione, iure quas tempora aliquid aliquam at suscipit pariatur! Fuga dolore ut sapiente necessitatibus assumenda!",
   "cost": 533,
   "avaliable": "yes",
-  "img": ["url(./assets/santorini-0.jpg)", "url(./assets/santorini-1.jpg)", "url(./assets/santorini-2.jpg)"]
+  "img": ["url(/assets/santorini-0.jpg)", "url(/assets/santorini-1.jpg)", "url(/assets/santorini-2.jpg)"]
   },
   {
   "id": 9,
@@ -96,7 +96,7 @@
   "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores illo laborum rerum beatae, quo velit itaque harum. Laudantium fugiat facere nisi temporibus illum provident possimus earum eum quae quisquam, ut sunt, consectetur eligendi unde cum rerum enim, ullam dolores ducimus. Voluptatibus facilis ipsum voluptates quis reprehenderit, earum maxime.",
   "cost": 450,
   "avaliable": "yes",
-  "img": ["url(./assets/playa-del-carmen-0.jpg)", "url(./assets/playa-del-carmen-1.jpg)", "url(./assets/playa-del-carmen-2.jpg)"]
+  "img": ["url(/assets/playa-del-carmen-0.jpg)", "url(/assets/playa-del-carmen-1.jpg)", "url(/assets/playa-del-carmen-2.jpg)"]
   },
   {
   "id": 10,
@@ -105,7 +105,7 @@
   "overview": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia mollitia nesciunt, itaque odio, libero neque accusamus voluptas labore eos eum exercitationem! Officiis distinctio architecto dolor non officia quidem nobis dolore porro nemo beatae alias modi minima eveniet nesciunt, mollitia cum magnam suscipit ab debitis ipsam saepe fugit sit reiciendis. Ex, asperiores voluptatibus! Vero unde impedit deserunt maxime rerum voluptatibus.",
   "cost": 700,
   "avaliable": "yes",
-  "img": ["url(./assets/amsterdam-0.jpg)", "url(./assets/amsterdam-1.jpg)", "url(./assets/amsterdam-2.jpg)"]
+  "img": ["url(/assets/amsterdam-0.jpg)", "url(/assets/amsterdam-1.jpg)", "url(/assets/amsterdam-2.jpg)"]
   },
   {
   "id": 11,
@@ -114,7 +114,7 @@
   "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, laudantium repudiandae. Praesentium aliquid dolorum esse cumque iusto quas cum fuga commodi, accusantium ipsa pariatur odit deleniti delectus illo. Rerum eum minus aperiam nesciunt nam libero doloremque aut harum facilis? Soluta!",
   "cost": 650,
   "avaliable": "yes",
-  "img": ["url(./assets/prague-0.jpg)", "url(./assets/prague-1.jpg)", "url(./assets/prague-2.webp)"]
+  "img": ["url(/assets/prague-0.jpg)", "url(/assets/prague-1.jpg)", "url(/assets/prague-2.webp)"]
   },
   {
   "id": 12,
@@ -123,7 +123,7 @@
   "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eveniet illum quidem voluptatibus impedit tempora necessitatibus! Fuga fugiat atque reprehenderit a labore dolorem dolores quasi? Repellat, tempora ullam, accusamus impedit maiores nesciunt a voluptatum aspernatur mollitia temporibus sit dolore voluptate magnam ut id tempore vero.",
   "cost": 530,
   "avaliable": "yes",
-  "img": ["url(./assets/chefchaouen-0.jpg)", "url(./assets/chefchaouen-1.jpg)", "url(./assets/chefchaouen-2.jpeg)"]
+  "img": ["url(/assets/chefchaouen-0.jpg)", "url(/assets/chefchaouen-1.jpg)", "url(/assets/chefchaouen-2.jpeg)"]
   },
   {
   "id": 13,
@@ -132,7 +132,7 @@
   "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eveniet illum quidem voluptatibus impedit tempora necessitatibus! Fuga fugiat atque reprehenderit a labore dolorem dolores quasi? Repellat, tempora ullam, accusamus impedit maiores nesciunt a voluptatum aspernatur mollitia temporibus sit dolore voluptate magnam ut id tempore vero.",
   "cost": 600,
   "avaliable": "yes",
-  "img": ["url(./assets/cairo-0.jpg)", "url(./assets/cairo-1.jpg)", "url(./assets/cairo-2.webp)"]
+  "img": ["url(/assets/cairo-0.jpg)", "url(/assets/cairo-1.jpg)", "url(/assets/cairo-2.webp)"]
   },
   {
   "id": 14,
@@ -141,7 +141,7 @@
   "overview":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur accusamus quam ab dignissimos, nobis magnam vel, porro blanditiis velit asperiores. Dolorum sequi accusamus nobis vel dignissimos repellat itaque aliquid debitis in soluta molestiae inventore dolor earum veritatis ullam, dicta commodi quae non a nihil facilis pariatur perferendis cum. Optio?",
   "cost": 995,
   "avaliable": "yes",
-  "img":  ["url(./assets/doha-0.webp", "url(./assets/doha-1.jpg", "url(./assets/doha-2.jpg"]
+  "img":  ["url(/assets/doha-0.webp", "url(/assets/doha-1.jpg", "url(/assets/doha-2.jpg"]
   },
   {
   "id": 15,
@@ -150,7 +150,7 @@
   "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam perspiciatis facere temporibus impedit, nihil provident natus animi nulla tempora dolore reprehenderit quasi dolor incidunt asperiores quo accusantium iure, ex libero totam. Inventore in aperiam accusamus, ipsam veniam illum iure adipisci, ab vero doloremque labore praesentium incidunt eius? Dignissimos, repellendus quia?",
   "cost": 870,
   "avaliable": "yes",
-  "img": ["url(./assets/bern-0.jpg)", "url(./assets/bern-1.jpg)", "url(./assets/bern-2.jpg)"]
+  "img": ["url(/assets/bern-0.jpg)", "url(/assets/bern-1.jpg)", "url(/assets/bern-2.jpg)"]
   },
   {
     "id": 16,
@@ -159,7 +159,7 @@
     "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam perspiciatis facere temporibus impedit, nihil provident natus animi nulla tempora dolore reprehenderit quasi dolor incidunt asperiores quo accusantium iure, ex libero totam. Inventore in aperiam accusamus, ipsam veniam illum iure adipisci, ab vero doloremque labore praesentium incidunt eius? Dignissimos, repellendus quia?",
     "cost": 610,
     "avaliable": "yes",
-    "img": ["url(./assets/havana-0.webp)", "url(./assets/havana-1.jpg)", "url(./assets/havana-2.jpg)"]
+    "img": ["url(/assets/havana-0.webp)", "url(/assets/havana-1.jpg)", "url(/assets/havana-2.jpg)"]
   },
   {
   "id": 17,
@@ -168,7 +168,7 @@
   "overview": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam et tempora est at. At praesentium eveniet magnam minima adipisci consectetur laboriosam laborum quibusdam eos quis, et facere cupiditate aliquam cum ducimus voluptatum asperiores quae labore impedit. Tempora sed, ipsam fuga at itaque praesentium, laborum eligendi explicabo facere placeat optio labore.",
   "cost": 700,
   "avaliable": "yes",
-  "img": ["url(./assets/venice-0.jpg)", "url(./assets/venice-1.jpg)", "url(./assets/venice-2.jpg)"]
+  "img": ["url(/assets/venice-0.jpg)", "url(/assets/venice-1.jpg)", "url(/assets/venice-2.jpg)"]
   },
   {
   "id": 18,
@@ -177,7 +177,7 @@
   "overview": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, aliquid temporibus? Cupiditate maxime quaerat veniam ut deserunt consectetur nesciunt doloribus obcaecati voluptate, inventore eligendi at, veritatis amet minima voluptatum ullam? Fuga tempora vitae pariatur ab corrupti, eveniet iste, numquam sint earum impedit quas, aliquid cumque!",
   "cost": 440,
   "avaliable": "yes",
-  "img": ["url(./assets/tokyo-0.jpg)", "url(./assets/tokyo-1.jpg)", "url(./assets/tokyo-2.jpg)"]
+  "img": ["url(/assets/tokyo-0.jpg)", "url(/assets/tokyo-1.jpg)", "url(/assets/tokyo-2.jpg)"]
   },
   {
   "id": 19,
@@ -186,7 +186,7 @@
   "overview": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, aliquid temporibus? Cupiditate maxime quaerat veniam ut deserunt consectetur nesciunt doloribus obcaecati voluptate, inventore eligendi at, veritatis amet minima voluptatum ullam? Fuga tempora vitae pariatur ab corrupti, eveniet iste, numquam sint earum impedit quas, aliquid cumque!",
   "cost": 650,
   "avaliable": "yes",
-  "img": ["url(./assets/rabat-0.jpg)", "url(./assets/rabat-1.jpeg)", "url(./assets/rabat-2.jpg)"]
+  "img": ["url(/assets/rabat-0.jpg)", "url(/assets/rabat-1.jpeg)", "url(/assets/rabat-2.jpg)"]
   },
   {
   "id": 20,
@@ -195,7 +195,7 @@
   "overview": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti odit et illum! Non velit voluptatibus quam repudiandae nostrum laudantium expedita doloremque quis at placeat enim, est laboriosam veniam sequi, architecto ex maiores nam hic officiis quod dicta voluptate. Iste delectus, amet corporis quidem possimus qui, odit dicta sunt commodi, porro perspiciatis omnis sint nihil culpa?",
   "cost": 680,
   "avaliable": "yes",
-  "img": ["url(./assets/svalbard-0.jpeg), url(./assets/svalbard-1.jpg), url(./assets/svalbard-2.jpg)"]
+  "img": ["url(/assets/svalbard-0.jpeg), url(/assets/svalbard-1.jpg), url(/assets/svalbard-2.jpg)"]
   },
   {
   "id": 21,
@@ -204,7 +204,7 @@
   "overview": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti odit et illum! Non velit voluptatibus quam repudiandae nostrum laudantium expedita doloremque quis at placeat enim, est laboriosam veniam sequi, architecto ex maiores nam hic officiis quod dicta voluptate. Iste delectus, amet corporis quidem possimus qui, odit dicta sunt commodi, porro perspiciatis omnis sint nihil culpa?",
   "cost": 710,
   "avaliable": "yes",
-  "img": ["url(./assets/budapest-0.jpg)", "url(./assets/budapest-1.jpg)", "url(./assets/budapest-2.jpg)"]
+  "img": ["url(/assets/budapest-0.jpg)", "url(/assets/budapest-1.jpg)", "url(/assets/budapest-2.jpg)"]
   },
   {
   "id": 22,
@@ -213,7 +213,7 @@
   "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magni fugit, laboriosam ipsa dolore itaque tempore commodi sint illum asperiores sapiente dolores perferendis! Aliquid, labore! Nesciunt nisi consectetur eius soluta sint. Eligendi dolorum sint natus repudiandae quae laboriosam tenetur odio!",
   "cost": 783,
   "avaliable": "yes",
-  "img": ["url(./assets/texas-0.jpg)", "url(./assets/texas-1.jpg)", "url(./assets/texas-2.jpg)"]
+  "img": ["url(/assets/texas-0.jpg)", "url(/assets/texas-1.jpg)", "url(/assets/texas-2.jpg)"]
   },
   {
   "id": 23,
@@ -222,7 +222,7 @@
   "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repellendus porro nisi eaque velit pariatur culpa omnis quos id sunt aliquam enim tempora fugit, eos reiciendis accusamus laborum perspiciatis officia voluptates sed consequatur fugiat error. At praesentium ratione id sit, officiis voluptatem inventore repudiandae, aut perferendis ullam doloribus!",
   "cost": 420,
   "avaliable": "yes",
-  "img": ["url(./assets/stpetersburg-0.jpg)", "url(./assets/stpetersburg-1.jpg)", "url(./assets/stpetersburg-2.jpg)"]
+  "img": ["url(/assets/stpetersburg-0.jpg)", "url(/assets/stpetersburg-1.jpg)", "url(/assets/stpetersburg-2.jpg)"]
   },
   {
   "id": 24,
@@ -231,6 +231,6 @@
   "overview": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, aut deserunt. Adipisci eaque blanditiis est unde, nihil, corporis autem cumque placeat deserunt praesentium aspernatur neque quod qui veritatis quibusdam delectus quos amet, voluptas laborum. Ducimus suscipit, a hic explicabo distinctio excepturi. Nesciunt excepturi neque, sequi qui necessitatibus exercitationem explicabo laborum quos quo.",
   "cost": 870,
   "avaliable": "yes",
-  "img": ["url(./assets/basel-0.jpg)", "url(./assets/basel-1.jpg)", "url(./assets/basel-2.jpg)"]
+  "img": ["url(/assets/basel-0.jpg)", "url(/assets/basel-1.jpg)", "url(/assets/basel-2.jpg)"]
   }
 ]
