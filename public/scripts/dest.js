@@ -67,7 +67,7 @@ const popupContent = (arg,u, v, ind) => {
   })
 }
 
-export const likeNumber = async(ele, number) => {
+ const likeNumber = async(ele, number) => {
   const likeData = await fetch('/getLikes/' + number);
   const json = await likeData.json();
   ele.textContent = json.status
@@ -105,7 +105,7 @@ const popupImage = (arg1, arg2) => {
 }
 
 // ---------------- Post Likes
- export const postLikes = async(num) => {
+  const postLikes = async(num) => {
   const url = '/destinations/like'
   const key = "item" + num
   const data = { "id": num, "Like": key }

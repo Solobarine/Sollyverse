@@ -99,14 +99,7 @@ app.get('/destinations', (req, res) => {
   res.status(201).sendFile(path.resolve(__dirname, './public/destinations.html'))
 })
 
-// Like Route
-/*app.get('/getLikes', (req, res) => {
-  likes.find({"Likes": "item" + req.params.id}, (err, doc) => {
-    console.log(id);
-    res.send(doc.length)
-  }) 
-})*/
-
+// Get Single Likes
 app.get('/getLikes/:id', (req, res) => {
   const like = "item" + req.params.id;
   console.log(like)

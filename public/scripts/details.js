@@ -69,7 +69,7 @@ const sendUser = async (fname, lname, mail, password) => {
   }
   console.log(options);
   console.log(options.method, options.body, options.headers);
-  fetch(url, options).then(c => c.json()).then(g => console.log(g))
+  fetch(url, options).then(c => c.text()).then(g => console.log(g))
 }
 // Login
 submit.addEventListener('click', async (e) => {

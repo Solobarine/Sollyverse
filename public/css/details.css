@@ -7,6 +7,9 @@ body {
   /*width: 1200px;*/
 }
 
+a {
+  text-decoration: none;
+}
 .container {
   text-align: center;
   background: grey;
@@ -99,30 +102,52 @@ body {
 #form {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  margin-left: 30%;
+  width: 30%;
+  margin-left: 35%;
+  height: 30%;
+  align-self: center;
+  margin-top: 3%;
 }
 
-.nameInput,
+.mailInput,
 .passwordInput {
-  margin-bottom: 15px;
-  height: 35px;
-  border-radius: 10px;
+  margin-bottom: 40px;
+  height: 60px;
+  border-radius: 6px;
   border: none;
+  font-size: 16px;
 }
 
 #subBtn {
-  width: 50%;
+  width: 30%;
   color: #fff;
+  font-size: 16px;
   background-color: #20b970;
-  margin: 0 25%;
-  height: 40px;
+  margin: 0 35%;
+  height: 55px;
   border-radius: 12px;
   border: 0;
 }
 
+.suggest {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+#signUp-link {
+  color: #20b970;
+}
+
+#signUp-link:hover {
+  color: darkgreen;
+}
+
 .welcome {
   padding: 0;
+}
+
+.sign-in {
+  height: 80vh;
 }
 
 #signUp-form {
