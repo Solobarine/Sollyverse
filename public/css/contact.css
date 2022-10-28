@@ -1,0 +1,61 @@
+.container {
+  height: 100vh;
+  background-color: rgba(132,251,223, 1);
+}
+
+#top,
+#bottom {
+  height: 20vh;
+  background-color: #20b970;
+}
+
+#top {
+  border-bottom-left-radius: 500px;
+}
+
+#bottom {
+  border-top-left-radius: 500px;
+}
+
+#middle {
+  height: 55vh;
+  background-color: rgba(132,251,223, 1);
+
+}
+
+.form {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 30%;
+  margin-top: 30px;
+}
+
+.fullName {
+  height: 55px;
+  border-radius: 8px;
+  font-size: 18px;
+  border: none;
+}
+
+.comment {
+  height: 50%;
+  font-size: 18px;
+  border: none;
+}
+
+.subBtn {
+  width: 30%;
+  height: 48px;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #20b970;
+  border-radius: 8px;
+  border: none;
+}
+
+.subBtn:hover {
+  background-color: #d2f36f;
+}
