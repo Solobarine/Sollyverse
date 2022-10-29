@@ -59,14 +59,20 @@
   width: 30%;
   display: flex;
   align-content: cemter;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.like {
-  padding: 10px;
-  font-size: 13px;
-  background-color: pink;
+.fa-heart {
+  border-radius: 12px;
   color: #fff;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.fa-beat {
+  --fa-beat-scale: 2.0;
+  --fa-animation-duration: 2s;
+  --fa-animation-iteration-count: 3;
 }
 
 .cost {

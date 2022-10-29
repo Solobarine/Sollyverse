@@ -7,7 +7,7 @@
   "avaliable": "yes",
   "img": ["url(/assets/mauritius-0.jpg)", "url(/assets/mauritius-1.jpg)", "url(/assets/mauritius-2.jpg)"]
   },
-{
+  {
   "id": 1,
   "place": "Ba",
   "country": "Fiji",
@@ -16,16 +16,16 @@
   "avaliable": "yes",
   "img": ["url(/assets/fiji-0.jpg)", "url(/assets/fiji-1.jpg)", "url(/assets/fiji-2.jpg)"]
   },
-{
+  {
   "id": 2,
   "place": "Cartagena",
   "country": "Columbia",
   "overview": "This fabulous destination holds the secrets of history within its walled city, on its balconies, and in the narrow stone walkways that inspired author Gabriel García Márquez, who was received the Nobel Prize in Literature in 1982.Framed by its stunning bay, Cartagena de Indias is one of the most beautiful, well-preserved cities in the Americas; a treasure that is currently one of the most heavily frequented tourist destinations in Colombia.",
   "cost": 425,
   "avaliable": "yes",
-  "img": ["url(/assets/cartagena-0.webp)", "url(./assets/cartagena-1.webp)", "url(/assets/cartagena-2.jpg)"]
-},
-{
+  "img": ["url(/assets/cartagena-0.webp)", "url(/assets/cartagena-1.webp)", "url(/assets/cartagena-2.jpg)"]
+  },
+  {
   "id": 3,
   "place": "Rio de Janeiro",
   "country": "Brazil",
@@ -35,7 +35,7 @@
   "img": ["url(/assets/rio-0.webp)", "url(/assets/rio-1.jpg)", "url(/assets/rio-2.jpg)"]
 
   },
-{
+  {
   "id": 4,
   "place": "Dubai",
   "country": "UAE",
@@ -44,7 +44,7 @@
   "avaliable": "yes",
   "img": ["url(/assets/dubai-0.jpg)", "url(/assets/dubai-1.jpg)", "url(/assets/dubai-2.jpg)"]
   },
-{
+  {
   "id": 5,
   "place": "Toledo",
   "country": "Spain",
@@ -60,7 +60,7 @@
   "overview": "Istanbul is known to be a vibrant city that has been spreading its mystical allure all over the world for a long time. An eclectic blend of age old traditions with the peculiar sophistication and style of Europe can be witnessed at the most popular places to visit in Istanbul. The city is known for its amazing time-honored attractions that have been beckoning tourists from all over the world. Besides, it is being noticed as a modern city with chic cocktail lounges and nightclubs, flourishing art and culture scene and designer boutiques selling stylish and elegant couture. Istanbul has everything for a discerning tourist!",
   "cost": 572,
   "avaliable": "yes",
-  "img": ["url(/assets/turkey-0.jpg)", "url(/assets/turkey-1.jpg)", "url(/assets/turkey-2.jpg)"]
+  "img": ["url(/assets/turkey-0.jpg)", "url(/assets/turkey-1.png)", "url(/assets/turkey-2.jpg)"]
   },
   {
   "id": 7,
@@ -110,7 +110,7 @@
   {
   "id": 11,
   "place": "Prague",
-  "country": "Ceczh Republic",
+  "country": "Cech Rep.",
   "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, laudantium repudiandae. Praesentium aliquid dolorum esse cumque iusto quas cum fuga commodi, accusantium ipsa pariatur odit deleniti delectus illo. Rerum eum minus aperiam nesciunt nam libero doloremque aut harum facilis? Soluta!",
   "cost": 650,
   "avaliable": "yes",

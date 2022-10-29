@@ -11,7 +11,7 @@ const showVacations = (arg) => {
                                      <p class="vac-country">${arg[index].country}</p>
                                      <div class="like-div0">
                                      <p id="${index}" class="likeCount"></p>
-                                     <button id="${index}" class="like">Like</button>
+                                     <i id="${index}" class="fa-solid fa-heart likes"></i>
                                      </div>
                                     </div>
                                     <p class="cost">$${arg[index].cost}/week</p>
@@ -24,13 +24,23 @@ const showVacations = (arg) => {
     const index = likeArr.indexOf(num);
     likeNumber(num, index);
   })
-  const likeBtns = document.querySelectorAll('.like');
+  const likeBtns = document.querySelectorAll('.likes');
+  console.log(likeBtns)
   const likeBtnArr = Array.from(likeBtns);
   likeBtnArr.forEach(likeBtn => {
     const index = likeBtnArr.indexOf(likeBtn);
+    console.log(likeBtn)
     likeBtn.addEventListener('click', () => {
       postLikes(index);
-      likeNumber(likeArr[index], index)
+      likeNumber(likeArr[index], index);
+      likeBtn.classList.remove('fa-regular');
+      likeBtn.classList.remove('fa-heart');
+      console.log(likeBtn);
+      likeBtn.classList.add('fa-solid');
+      likeBtn.classList.add('fa-heart');
+      likeBtn.classList.add('fa-beat');
+      console.log(likeBtn);
+      likeBtn.style.color = '#f00';
     })
   })
 }
@@ -49,7 +59,7 @@ const popupContent = (arg,u, v, ind) => {
                         <p class="pop-country">${arg[ind].country}</p>
                         <div class="like-div">
                         <p class="like-num"></p>
-                        <button class="pop-like">Like</button>
+                        <i class="fa-regular fa-heart pop-like"></i>
                         </div>
                       </div>
                       <p class="desc">${arg[ind].overview}</p>

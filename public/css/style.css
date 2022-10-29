@@ -1,7 +1,10 @@
+* {
+  font-family: Poppins, sans-serif;
+}
+
 body {
   padding: 0;
   margin: 0;
-  /*width: 1200px;*/
   background: linear-gradient( #79d58d, #fff);
 }
 
@@ -14,14 +17,16 @@ body {
 
 .logo {
   width: 20%;
+  font-size: 26px;
 }
 .nav {
   display: flex;
   list-style: none;
   width: 50%;
-  padding-top: 5px;
+  padding-top: 10px;
   justify-content: space-around;
   margin-right: 10%;
+  font-size: 20px;
 }
 
 .head-buttons {
@@ -36,6 +41,7 @@ body {
   margin-top: 10%;
   border: none;
   color: grey;
+  font-size: 20px;
 }
 
 .register {
@@ -46,6 +52,7 @@ body {
   margin-top: 10%;
   border: none;
   color: #fff;
+  font-size: 20px;
 }
 
 .welcome {
@@ -66,8 +73,8 @@ body {
 }
 
 .welcome-buttons {
-  width: 42%;
-  margin-left: 29%;
+  width: 30%;
+  margin-left: 35%;
   text-align: center;
 }
 
@@ -75,19 +82,20 @@ body {
   width: 40%;
   border: none;
   border-radius: 10px;
+  font-size: 16px;
 }
 
 #download {
   background: white;
   color: #20b970;
-  padding: 10px;
+  padding: 12px;
 
 }
 
 #started {
   background: #20b970;
   color: #fff;
-  padding: 10px;
+  padding: 12px;
 }
 
 .home {
@@ -176,21 +184,26 @@ body {
 .destination {
   width: 20%;
   height: 240px;
-  background: red;
   border-radius: 20px;
+  background-repeat: no-repeat;
+}
+
+.destination > * {
+  color: #fff;
 }
 
 .d-heading {
   width: 84%;
   margin-left: 8%;
   margin-top: 165px;
-  background: green;
+  background: rgba(30, 30, 30, 0.3);
   border-radius: 10px;
   padding-left: 8px;
 }
 
 .vac-name {
   margin: 0;
+  font-size: 16px;
 }
 
 .loc-section {
@@ -199,14 +212,8 @@ body {
   justify-content: space-between;
 }
 
-.location {
-  margin: 0;
-}
-
-.like {
-  margin: 0;
-}
-
+.location,
+.like,
 .cost {
   margin: 0;
 }
@@ -231,29 +238,29 @@ body {
 .dest {
   width: 47%;
   height: 70px;
-  background: palegoldenrod;
   margin-bottom: 15px;
   border-radius: 8px;
 }
 
 .dd-head {
-  margin: 8px;
-  background: blue;
+  height: 100%;
+  background: #20b970;
   display: flex;
   border-radius: 10px;
 }
 
 .tou-image {
   width: 25%;
-  height: 54px;
-  background: orange;
+  height: 90%;
   margin-top: 2px;
   margin-left: 2px;
-  border-radius: 7px
+  border-radius: 7px;
+  background-position: center;
 }
 
 .cover {
   width: 75%;
+  margin-top: 2%;
 }
 
 .dd-1 {
@@ -285,7 +292,8 @@ body {
 
 .profile {
   width: 25%;
-  background-color: magenta;
+  background-image: url('../assets/mountains-0.jpg');
+  background-size: cover;
   border-radius: 0 20px 20px 0;
   display: flex;
   flex-direction: column;
@@ -293,11 +301,24 @@ body {
   padding-top: 30px;
 }
 
+.profile > * {
+  color: #fff;
+}
+
+#name,
+.hobby {
+  font-size: 18px;
+}
+
 .picture {
   height: 140px;
   width: 40%;
   background:blue;
   border-radius: 80px;
+}
+
+.trips {
+  font-size: 25px;
 }
 
 #fame {
@@ -338,10 +359,18 @@ body {
   margin-top: 0px;
 }
 
+.vacations {
+  width: 70%;
+}
+
+.vacation {
+  width: 100%;
+}
+
 .vac-head {
   display: flex;
-  width: 190px;
-  background: rebeccapurple;
+  width: 100%;
+  background: rgba(30, 30, 30, 0.3);
   margin-bottom: 20px;
   border-radius: 12px;
 }
@@ -356,7 +385,7 @@ body {
 .vac-image {
   width: 25%;
   background: cyan;
-  height: 45px;
+  height: 70px;
   margin-top: 3px;
   margin-left: 3px;
   border-radius: 6px;

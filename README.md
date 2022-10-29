@@ -2,55 +2,33 @@
 
 # Project Name
 
-> Description the project.
+> Sollyverse is a Travel website that lets you view Holiday destinations. Create an account and enjoy your dream vacations.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML, CSS and JavaScript
+- Express, JOI, Node JS and NeDB
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
-
-### Setup
+> You need to have Node JS installed on your machine to start the server.
 
 ### Install
+> Run npm install to download the dependencies.
 
 ### Usage
+> In the root directory of the repo, run node server.cjs to start the server.
+> Go to the localhost:3000 on your browser.
+> Enjoy.
 
-### Run tests
+## Author
+👤 **Akpuru Solomon Barine
 
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Solobarine](https://github.com/Solobarine)
+- Twitter: [@SolomonAkpuru](https://twitter.com/SolomonAkpuru)
+- LinkedIn: [Solomon Akpuru](https://www.linkedin.com/mwlite/in/solomon-akpuru-17069b241)
 
 ## 🤝 Contributing
 
@@ -64,12 +42,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- My Friends
+- My Siblings
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
